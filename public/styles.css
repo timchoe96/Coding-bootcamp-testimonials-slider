@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body .bg {
+  position: absolute;
+  bottom: 60px;
+  right: 70px;
+  z-index: -1;
+}
+
+body .curve {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50vw;
+  height: auto;
+  z-index: -1;
+}
+
+body .quotes {
+  position: absolute;
+  top: 185px;
+  left: 260px;
+  z-index: -1;
+}
+
+body .testimonialContainer {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+body .quoteBox {
+  position: absolute;
+  top: 250px;
+  left: 160px;
+  z-index: 2;
+  font-family: 'Inter',sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  width: 650px;
+  line-height: 1.5;
+}
+
+body .quoteBox .name {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  display: inline;
+}
+
+body .quoteBox span {
+  font-weight: 500;
+  color: #babacf;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+body .photo {
+  z-index: 1;
+  position: absolute;
+  right: 160px;
+  bottom: 110px;
+  -webkit-box-shadow: 10px 25px 80px -40px #202046;
+          box-shadow: 10px 25px 80px -40px #202046;
+}
+
+body .buttonContainer {
+  z-index: 2;
+  position: absolute;
+  right: 530px;
+  bottom: 90px;
+  background: white;
+  height: 45px;
+  width: 100px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+body .buttonContainer .prev {
+  padding-top: 15px;
+  padding-right: 35px;
+}
+
+@media all and (max-width: 400px) {
+  .appContainer .curve {
+    width: 100vw;
+    height: auto;
+  }
+  .appContainer .bg {
+    width: 90vw;
+    height: auto;
+    top: 50px;
+    right: 20px;
+  }
+  .appContainer .quotes {
+    width: 80px;
+    height: auto;
+    top: 405px;
+    left: 160px;
+  }
+  html .testimonialContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+  html .testimonialContainer .quoteBox {
+    margin-bottom: 50px;
+    text-align: center;
+    position: static;
+    font-size: 18px;
+    width: 85vw;
+  }
+  html .testimonialContainer .quoteBox .name {
+    font-size: 16px;
+  }
+  html .testimonialContainer .photo {
+    width: 70vw;
+    height: auto;
+    position: static;
+    margin-bottom: 100px;
+  }
+  html .testimonialContainer .buttonContainer {
+    right: 130px;
+    bottom: 435px;
+  }
+  .personalInfo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .personalInfo .occupation {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
