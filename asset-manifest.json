@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Coding-bootcamp-testimonials-slider/static/css/main.4c48667a.chunk.css",
+    "main.js": "/Coding-bootcamp-testimonials-slider/static/js/main.7348481d.chunk.js",
+    "main.js.map": "/Coding-bootcamp-testimonials-slider/static/js/main.7348481d.chunk.js.map",
+    "runtime-main.js": "/Coding-bootcamp-testimonials-slider/static/js/runtime-main.4b17be5d.js",
+    "runtime-main.js.map": "/Coding-bootcamp-testimonials-slider/static/js/runtime-main.4b17be5d.js.map",
+    "static/js/2.c9094c52.chunk.js": "/Coding-bootcamp-testimonials-slider/static/js/2.c9094c52.chunk.js",
+    "static/js/2.c9094c52.chunk.js.map": "/Coding-bootcamp-testimonials-slider/static/js/2.c9094c52.chunk.js.map",
+    "index.html": "/Coding-bootcamp-testimonials-slider/index.html",
+    "precache-manifest.7c841c30bfa58e406beb5453ff7c287b.js": "/Coding-bootcamp-testimonials-slider/precache-manifest.7c841c30bfa58e406beb5453ff7c287b.js",
+    "service-worker.js": "/Coding-bootcamp-testimonials-slider/service-worker.js",
+    "static/css/main.4c48667a.chunk.css.map": "/Coding-bootcamp-testimonials-slider/static/css/main.4c48667a.chunk.css.map",
+    "static/js/2.c9094c52.chunk.js.LICENSE.txt": "/Coding-bootcamp-testimonials-slider/static/js/2.c9094c52.chunk.js.LICENSE.txt",
+    "static/media/icon-next.svg": "/Coding-bootcamp-testimonials-slider/static/media/icon-next.5421c364.svg",
+    "static/media/icon-prev.svg": "/Coding-bootcamp-testimonials-slider/static/media/icon-prev.0fa4e8f2.svg",
+    "static/media/image-john.jpg": "/Coding-bootcamp-testimonials-slider/static/media/image-john.9c159506.jpg",
+    "static/media/image-tanya.jpg": "/Coding-bootcamp-testimonials-slider/static/media/image-tanya.343537c1.jpg",
+    "static/media/pattern-bg.svg": "/Coding-bootcamp-testimonials-slider/static/media/pattern-bg.bb83e5bd.svg",
+    "static/media/pattern-curve.svg": "/Coding-bootcamp-testimonials-slider/static/media/pattern-curve.ae8c0639.svg",
+    "static/media/pattern-quotes.svg": "/Coding-bootcamp-testimonials-slider/static/media/pattern-quotes.83ba950c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b17be5d.js",
+    "static/js/2.c9094c52.chunk.js",
+    "static/css/main.4c48667a.chunk.css",
+    "static/js/main.7348481d.chunk.js"
+  ]
+}
